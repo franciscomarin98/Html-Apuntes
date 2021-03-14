@@ -13,6 +13,6 @@
   
 - **Servidor web**: Es un ordenador cuyo objetivo es servir recursos web; cuando las personas hablan de la nube, de un servidor o cosas así, lo que quieren decir es que hay un ordenador que esta preparado para recibir peticiones y entregar lo que le estan solicitando; esto puede ser un sitio web, servicios Rest, etc.
 
-- **Hosting**: Es el almacenaniento del servidor web, es decir el disco duro donde el servidor guarda los recursos. Entonces sabiendo esto cuando, cuando se escuche que una persona dice que comprará dominio y hosting para un sitio web por ejemplo, lo que quiere decir es que comprará una **URL asociada a una IP (Dominio web)** y **(un disco duro de un ordenador (Hosting))** donde se guardará el sitio web.
+- **Hosting**: Es el almacenaniento del servidor web, es decir el disco duro donde el servidor guarda los recursos. Entonces sabiendo esto cuando, cuando se escuche que una persona dice que comprará dominio y hosting para un sitio web por ejemplo, lo que quiere decir es que comprará una **URL asociada a una IP (Dominio web)** y **(un disco duro de un ordenador (Hosting))** donde se guardará el sitio web y sus recursos.
 
-- **Petición web**: Es la acción para pedir recursos al servidor y es algo que hacemos a diria cuando navegamos, debido a que cada vez que escribimos por ejemplo www.youtube.com, lo que estamos estamos haciendo es una petición a un servidor.
+- **Petición web**: Es la acción para pedir recursos al servidor y es algo que hacemos a diria cuando navegamos, debido a que cada vez que escribimos por ejemplo www.youtube.com, lo que estamos haciendo es una petición a un servidor.

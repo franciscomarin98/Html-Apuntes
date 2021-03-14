@@ -6,4 +6,4 @@
 
 - HTML es la base con la que estan creadas **TODAS** las paginas web del mundo.
 
-- El objetivo de HTML es decirle al navegador y a los motores de busqueda (aquellos que hacen posible que nuestras páginas sean visibles para el mundo), cuál es la estructura del elemento que hemos creados, que elementos contiene, como estan organizados, etc.
+- El objetivo de HTML es decirle al navegador y a los motores de busqueda (aquellos que hacen posible que nuestras páginas sean visibles para el mundo), cuál es la estructura del documento que hemos creados, que elementos contiene, como estan organizados, etc.
