@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section and Article</title>
+</head>
+
+<!-- 
+   Section: Es un contenedor genérico que agrupa contenido que esta relacionado. Es decir que cuando vayamos a maquetar creamos contenido cuyo contenido es parte de un bloque total, debemos usar section. Por ejemplo supongamos que queremos maquetar la información acerca de mi empresa en una pagina web, lo ideal es usar section para ese caso.
+
+   Article: Es un contenedor que representa contenido independientemente, es decir, podemos leer ese fragmento en cualquier otro sitio y tendria sentido por si mismo.
+
+    Aside: Es un contenedor que se utiliza para representar contenido relacionado pero no forma parte del contenido principal. Por ejemplo si tengo un blog donde hablo sobre tecnologias de desarrollo y veo que hay un bloque que me informa acerca de cursos referente a las tecnologias que estoy leyendo, eso seria un aside.
+
+
+    Anidamiento:
+        Un section puede contener articles, por ejemplo, si tenemos varios articulos que hablan sobre etiquetas HTML, ese contenido debe ir dentro de un section, ya que es contenido relacionado entre si, y los articles serian contenido indepeniente porque podriamos leer uno sin haber leido el resto y seguiria teniendo sentido.
+        El article es definido como un componente de la pagina de contenido independiente, esto implica que esta etiqueta puede tener un header y footer propios.
+
+        Tambien existe el caso en el que un article contenga varias secciones, el articulo independiente podria ser navegadores y este contener dentro secciones como navegadores más utilizados en 2021
+
+        Dato importante sobre section: Pueden haber section dentro de otra section
+ -->
+
+<body>
+    <!-- Section con articles dentro -->
+    <header>
+        <h1>Noticias Nacionales</h1>
+    </header>
+    
+    <main>
+        <!-- Contenedor principal -->
+        <section>
+            <!-- Contenido del contenedor -->
+            <section>
+                <h2>Noticias del dia</h2>
+    
+                <article>
+                    <header>
+                        <h3>Noticia 1</h3>
+                    </header>
+                        <p>Lorem ipsum dolor sit</p>
+                    <footer>
+                        <p>Esta noticia ocurrió ayer</p>
+                    </footer>
+                </article>
+    
+                <article>
+                    <h3>Noticia 2</h3>
+                    <p>Lorem ipsum dolor sit</p>
+                </article>
+    
+                <article>
+                    <h3>Noticia 3</h3>
+                    <p>Lorem ipsum dolor sit</p>
+                </article>
+    
+            </section>
+        </section>
+    </main>
+
+</body>
+
+</html>
